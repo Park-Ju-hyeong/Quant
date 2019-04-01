@@ -52,6 +52,108 @@
     </tbody>
 </table>
 
+## 데이터 읽기
+
+```python
+import pandas as pd
+data = pd.read_table("/notebooks/JuHyeong/JuIng/Stock/data/A005930/DAY_A005930.txt", delimiter=" ")
+data.tail()
+```  
+
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>날짜</th>
+      <th>시가</th>
+      <th>고가</th>
+      <th>저가</th>
+      <th>종가</th>
+      <th>거래량</th>
+      <th>거래대금</th>
+      <th>상장주식수</th>
+      <th>시가총액</th>
+      <th>외국인현보유수량</th>
+      <th>기관순매수</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>10558</th>
+      <td>20190325</td>
+      <td>45300</td>
+      <td>45650</td>
+      <td>44800</td>
+      <td>45500</td>
+      <td>8699728</td>
+      <td>394433000000</td>
+      <td>5969782000</td>
+      <td>271625081000000</td>
+      <td>3391523</td>
+      <td>-1029563</td>
+    </tr>
+    <tr>
+      <th>10559</th>
+      <td>20190326</td>
+      <td>45500</td>
+      <td>45700</td>
+      <td>44900</td>
+      <td>45250</td>
+      <td>9729811</td>
+      <td>440020000000</td>
+      <td>5969782000</td>
+      <td>270132635000000</td>
+      <td>3393714</td>
+      <td>-1332399</td>
+    </tr>
+    <tr>
+      <th>10560</th>
+      <td>20190327</td>
+      <td>44750</td>
+      <td>45600</td>
+      <td>44250</td>
+      <td>45350</td>
+      <td>9568081</td>
+      <td>430843000000</td>
+      <td>5969782000</td>
+      <td>270729613000000</td>
+      <td>3391456</td>
+      <td>1031230</td>
+    </tr>
+    <tr>
+      <th>10561</th>
+      <td>20190328</td>
+      <td>44950</td>
+      <td>45200</td>
+      <td>44300</td>
+      <td>44850</td>
+      <td>6821306</td>
+      <td>306038000000</td>
+      <td>5969782000</td>
+      <td>267744722000000</td>
+      <td>3391293</td>
+      <td>-864538</td>
+    </tr>
+    <tr>
+      <th>10562</th>
+      <td>20190329</td>
+      <td>44500</td>
+      <td>44900</td>
+      <td>44200</td>
+      <td>44650</td>
+      <td>11491713</td>
+      <td>511624000000</td>
+      <td>5969782000</td>
+      <td>266550766000000</td>
+      <td>3392055</td>
+      <td>325024</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
 
 ## 코드 예시
  
