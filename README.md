@@ -57,7 +57,7 @@
  
 
 | 기준 | 주피터 노트북 | 내용 |
-|:----:|:--------:|:---------:|:---------:|
+|:----:|:--------:|:---------:|
 | 초기 세팅 | <a target="_blank" href="https://github.com/Park-Ju-hyeong/Quant/blob/master/ipynb/%EC%9D%BC%EB%B3%84%EB%8D%B0%EC%9D%B4%ED%84%B0(%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85).ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" /> Jupyter </a> | 1000.01.01. ~ 2019.12.31.(현재) 까지 주가 일별 데이터를 수집합니다. |
 | 초기 세팅 | <a target="_blank" href="https://github.com/Park-Ju-hyeong/Quant/blob/master/ipynb/%EB%B6%84%EB%8B%A8%EC%9C%84%EB%8D%B0%EC%9D%B4%ED%84%B0(%EC%B4%88%EA%B8%B0%EC%84%B8%ED%8C%85).ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png" /> Jupyter </a> | 1000.01.01. ~ 2019.12.31.(현재) 까지 주가 분단위 데이터를 수집합니다. |  
 
